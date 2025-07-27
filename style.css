@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-size: 0.8rem;
+}
+
+.google-header {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.text-links {
+    color: inherit;
+    text-decoration: none;
+}
+
+.text-links:hover {
+    text-decoration: underline;
+}
+
+.icon-links {
+    font-size: 1rem;
+    text-decoration: none;
+    color: inherit;
+    width: 2.5rem;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    border-radius: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.icon-links:hover {
+    background-color: rgba(160, 160, 160, 0.1);
+}
+
+.profile-img {
+    border: none;
+    background: transparent;
+}
+
+.profile-img img {
+  width: 40px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 50%;
+}
